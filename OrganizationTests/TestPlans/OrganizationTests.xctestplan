@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "3B21A272-2403-4ED7-B590-11E98FE7F1BA",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "addressSanitizer" : {
+      "enabled" : true
+    },
+    "testExecutionOrdering" : "random",
+    "undefinedBehaviorSanitizerEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:OrganizationTests.xcodeproj",
+        "identifier" : "5701608524AA1C7500A0F13A",
+        "name" : "OrganizationTestsTests"
+      }
+    }
+  ],
+  "version" : 1
+}

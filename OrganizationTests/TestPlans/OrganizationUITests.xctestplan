@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "CD0A3411-63A8-48FB-9183-90406DF6625C",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "selectedTests" : [
+        "OrganizationTestsUITests\/testExample()",
+        "OrganizationTestsUITests\/testLaunchPerformance()"
+      ],
+      "target" : {
+        "containerPath" : "container:OrganizationTests.xcodeproj",
+        "identifier" : "5701609024AA1C7500A0F13A",
+        "name" : "OrganizationTestsUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

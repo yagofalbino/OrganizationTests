@@ -1,0 +1,36 @@
+{
+  "configurations" : [
+    {
+      "id" : "019FD1DD-EFBE-49E4-9136-702BE812F093",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "selectedTests" : [
+        "OrganizationTestsUITests\/testExample()",
+        "OrganizationTestsUITests\/testLaunchPerformance()"
+      ],
+      "target" : {
+        "containerPath" : "container:OrganizationTests.xcodeproj",
+        "identifier" : "5701609024AA1C7500A0F13A",
+        "name" : "OrganizationTestsUITests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:OrganizationTests.xcodeproj",
+        "identifier" : "5701608524AA1C7500A0F13A",
+        "name" : "OrganizationTestsTests"
+      }
+    }
+  ],
+  "version" : 1
+}
